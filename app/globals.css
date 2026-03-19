@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-size: 16px;
+    background-color: #FAFAF8;
+}
+
+@media (max-width: 680px) {
+    body {
+        font-size: 14px;
+    }
+}
+
