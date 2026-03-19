@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 function Navbar() {
@@ -33,23 +32,6 @@ function Navbar() {
         >
           Contact
         </a>
-      </li>
-      <li className="sm:text-right">
-        <Link
-          href="/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 transition-all duration-200 underline-offset-4 decoration-myblue decoration-[1.5px] text-mygray hover:underline hover:text-myblue group"
-        >
-          Resume
-          <Image
-            src="/resume.svg"
-            alt=""
-            width={16}
-            height={16}
-            className="opacity-40 group-hover:opacity-100 transition-opacity duration-200"
-          />
-        </Link>
       </li>
     </ul>
   );

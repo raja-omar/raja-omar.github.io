@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Footer() {
   return (
     <footer className="pt-10 pb-6">
@@ -9,14 +7,9 @@ export default function Footer() {
             href="https://github.com/raja-omar"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-neutral-500 hover:text-myblue transition-colors duration-200"
           >
-            <Image
-              src="/github.svg"
-              alt="GitHub"
-              width={28}
-              height={28}
-              className="opacity-60 hover:opacity-100 transition-opacity duration-200"
-            />
+            GitHub
           </a>
         </li>
         <li>
@@ -24,14 +17,9 @@ export default function Footer() {
             href="https://www.linkedin.com/in/raja-omar"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-neutral-500 hover:text-myblue transition-colors duration-200"
           >
-            <Image
-              src="/linkedin.svg"
-              alt="LinkedIn"
-              width={28}
-              height={28}
-              className="opacity-60 hover:opacity-100 transition-opacity duration-200"
-            />
+            LinkedIn
           </a>
         </li>
       </ul>
